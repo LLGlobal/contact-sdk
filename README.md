@@ -20,7 +20,7 @@ yarn add llg-sdk-contact
 
 Staging:
 ```html
-<script src="https://eu-ewallet-share-bucket.lianlianglobal.com/sdk/contact/v1/prod/index.min.js" />
+<script src="https://eu-ewallet-share-bucket.lianlianglobal.com/sdk/contact/v1/staging/index.min.js" />
 ```
 
 Prod:
@@ -57,7 +57,7 @@ await window.LLGContact.init(options);
 | `el`          | `string` | **YES**    | -       | SDK mounts to the  DOM, eg: `#llg-contact`,
 | `env`          | `string` | **NO**    | `prod`        | LianLian Global environment you want to integrate your application with. Options include: `staging`, `prod`                                                   |
 | `langKey`      | `string` | **NO**    | `en`          | Language. Options include: `en`                                                                                                                             |
-| `token`     | `string` | **YES**   | -             | Bearer US_xxx |
+| `token`     | `string` | **YES**   | -             | Bearer US_3AT4IwessFmm8H1FYBmV04tHiKMCy |
 | `mountedCb` | `function` | **NO**   | -             | Executed when the SDK loads successfully |
 | `successCb` | `function` | **NO**   | -             | Execute after the KYC information is successfully submitted |
 | `failedCb` | `function` | **NO**   | -             | Executed after KYC information submission fails |
